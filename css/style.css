@@ -1,0 +1,481 @@
+body{
+    margin: 0;
+}
+.top_container{
+    background-color:#ffffff;
+    height: 72px;
+    width: 100%;
+}
+.TC1{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 47px;
+    width: 71%;
+    margin: 12px 0px 0px 210px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo-location{
+    display: inline-block;
+    background-color: rgb(255, 252, 255);
+    width: 33%;
+    margin-top: 6px;
+}
+
+.headLogo{
+    height: 32px;
+    width: 142px;
+    padding: 6px  35px 0px 0px;
+    
+}
+.locationPin{
+    height: 12px;
+    width: 12px;
+    margin-bottom: 16px;
+
+}
+#location-select{
+    position: absolute;
+    background-color: rgb(255, 251, 251);
+    height: 47px;
+    width: 175px;
+    border-radius: 0px;
+    border: none;
+
+}
+button,select{
+    font-family: Arial;
+    font-weight: 600;
+}
+p{
+    margin: -34px 0px 0px 176px;
+}
+
+.partners{
+    display: inline-block;
+    background-color: #ffffff;
+    width: 33%;
+    margin-top: 6px;
+}
+.partnerButton{
+    background-color: white;
+    border-radius: 0px;
+    border: none;
+    height: 47px;
+    margin-left: 45px;
+
+}
+#Business-select{
+    
+    position: absolute;
+    background-color: rgb(255, 251, 251);
+    height: 47px;
+    width: 175px;
+    border-radius: 0px;
+    border: none;
+
+}
+.signIn{
+    display: inline-block;
+    background-color: #ffffff;
+    width: 34%;
+}
+.search,.cart{
+    height: 47px;
+    padding-left: 50px;
+    width: 57px;
+}
+.sign-in{
+    position: absolute;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #15d48b;
+    padding: 10px 14px 10px 24px;
+    text-decoration: none;
+    border: none;
+    margin: 3px 0px 0px 10px;
+}
+.sign-in:hover{
+    cursor: pointer;
+}
+.banner{
+    
+    background-image: linear-gradient(to right,black , rgb(34, 34, 158));
+    height: 47px;
+    width: 100%;
+}
+.banner1{
+    
+    /* background-color: red; */
+    margin: 0px 211.429px 0px 211.429px;
+    height: 100%;
+}
+.bannerContent{
+    position: absolute;
+    height: 32px;
+    width: 490px;
+    /* background-color: rgb(47, 22, 22); */
+    /* margin-top: 8px; */
+
+}
+.moImage{
+    position: absolute;
+    height: 26px;
+    width: 30px;
+    margin-top: 7px;
+}
+.bannerPara{
+    /* font-family: Gilroy,sans-serif; */
+    position: relative;
+    /* margin: 0px 4px 0px 34px; */
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: white;
+    padding: 0px 0px 0px 30px;
+}
+.downloadMoApp{
+    position: absolute;
+    float: right;
+    height: 32px;
+    width: 490px;
+    /* background-color: rgb(108, 21, 83); */
+    margin-left:650px;
+
+}
+.moDownloadLink{
+    /* position: relative; */
+    text-decoration: none;
+    color: #15d48b;
+    margin-top: 14px;
+}
+.promo{
+    background: white;
+    width: 100%;
+    height: 500px;
+}
+.PC1{
+    position: absolute;
+    background-color: #ffffff;
+    height: 400px;
+    width:70%;
+    margin: 40px 0px 64px 211px;
+}
+.promImage{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+.tryDunzo{
+    margin: -100px 0px 0px 35px;
+}
+.tryButton{
+    border-radius: 28px;
+    font-family: Arial;
+    color: rgb(2 147 101);
+    font-size: 20px;
+    background: #f2eff2;
+    padding: 15px 60px 15px 60px;
+    text-decoration: none;
+    border-width: 0px;
+}
+
+.tryButton:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.essentialDelivery{
+    width: 100%;
+    height: 360px;
+    background-color: rgb(247 253 250);
+}
+.essentialContainer{
+    position: absolute;
+    /* display: flex;
+    flex-direction: column; */
+    background-color: rgb(247 253 250);
+    width:70%;
+    height: 280px;
+    margin: 0px 211px 0px 211px;
+}
+.essH1{
+    padding-top: 42px;
+    line-height: 85px;
+
+}
+.essImages{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    height: 175px;
+    background-color:rgb(247 253 250);
+}
+.essImg1{
+    height: 175px;
+    width: 240px;
+    background-color:rgb(247 253 250);
+}
+.essImg1:hover{
+    cursor: pointer;
+}
+.essImgRes{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.supplies{
+    width: 100%;
+    height: 165px;
+    background-color: rgb(247 253 250);
+}
+.supplyCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 211px 0px 217px;
+    background-color: rgb(247 253 250);
+    height: 150px;
+    width: 69%;
+    margin-left: 195px;
+}
+.supplyImg{
+    background-color: white;
+    height: 79%;
+    width: 157px;
+}
+.supplyImgEmpty{
+    background-color: rgb(247 253 250);
+}
+.SuIMg{
+    height: 50px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.SuLink{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin: 74px 0px 0px -60px;
+}
+.service{
+    width: 100%;
+    height: 370px;
+    background-color: rgb(255, 255, 255);
+}
+.topPicks{
+    margin: 0px 211px 0px 217px;
+    background-color: rgb(255, 255, 255);
+    height: 290px;
+    width: 69%;
+    margin-left: 195px;
+}
+.TPh1{
+    color: rgb(15 25 56);
+    padding-top: 10px;
+    /* line-height: 85px; */
+}
+.top{
+    width: 122px;
+    color: #15d48b;
+    border: solid;
+    margin: 1px;
+    border-width: 5px;
+    border-radius: 45px;
+}
+.picksImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    height: 172px;
+    width: 100%;
+    padding-top: 18px;
+}
+.picksImage{
+    background-color: white;
+    height: 172px;
+    width: 234px;
+    margin-right: 16px;
+    
+}
+.picksImg1{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+
+}
+.appLinks{
+    width: 100%;
+    height: 275px;
+    background-color: #f7fdfa;
+}
+.appLink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f7fdfa;
+    width: 70%;
+    height: 100%;
+    margin: 0px 211px 0px 280px;
+}
+.appImg{
+    height: 100%;
+    width: 220px;
+    background-color: #f7fdfa;
+}
+.appStore{
+    height: 99%;
+    width: 670px;
+    background-color: #f7fdfa;
+}
+.appSS{
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+}
+.appH3{
+    margin-top: 130px;
+    letter-spacing: 0.5px;
+
+}
+.appH4{
+    line-height: 0px;
+    margin-top: -10px;
+    letter-spacing: 0.5px;
+}
+.storeLink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 48px;
+    width: 255px;
+    background-color: white;
+}
+.playStore{
+    width: 50%;
+    height: 100%;
+}
+.playStore:hover{
+    cursor: pointer;
+}
+.appleStore{
+    width: 50%;
+    height: 100%;
+}
+.appleStore:hover{
+    cursor: pointer;
+
+}
+.playStore1{
+    width: 92%;
+    height: 45px;
+}
+
+.appleStore1{
+    width: 92%;
+    height: 45px;
+    margin-left: 11px;
+}
+.bottomContainer{
+    width: 100%;
+    height:600px;
+    background-color: #171e30;
+}
+.bottomDescription{
+    margin: 0px 211px 0px 211px;
+    height: 250px;
+    width: 70%;
+    background-color: #171e30;
+
+}
+.BpHead{
+    position: absolute;
+    margin: 74px 0px 0px 0px;
+    color: white;
+
+}
+.BpContent{
+    position: absolute;
+    margin: 101px 0px 0px 0px;
+    line-height: 19px;
+    color: #b7bac3;
+}
+.hrFinal{
+    width: 70%;
+    border-width: 1px;
+    border-radius: 0.5px;
+}
+.dunzoLists{
+    background-color: #171e30;
+    margin: 0px 211px 0px 211px;
+    height: 300px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logoLi{
+    width: 13%;
+    height: 100%;
+    background-color: #171e30;
+
+}
+.titleImgBottom{
+    position: absolute;
+    height: 85px;
+    width: 75px;
+}
+.aboutLi{
+    width: 25%;
+    height: 100%;
+    background-color: #171e30;
+
+}
+.aboutList,.cityList,.getInTouchList{
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 200;
+    color: white;
+    padding-bottom: 8px;
+    line-height: 34px;
+    
+
+}
+.aboutHead{
+    text-decoration: none;
+    text-align: start;
+    font-weight: 700;
+
+}
+.cities{
+    width: 25%;
+    height: 100%;
+    background-color: #171e30;
+
+}
+.getInTouch{
+    width: 25%;
+    height: 100%;
+    background-color: #171e30;
+
+}
+.deliveryBoy{
+    width: 25%;
+    height: 100%;
+    background-color: #171e30;
+}
+.delBoy{
+    position: absolute;
+    width: 20%;
+    height: 214px;
+}
